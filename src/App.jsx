@@ -1,15 +1,12 @@
-import { useState } from 'react'
+import Footer1 from "./components/footer/Footer1";
 
-import './App.css'
-
+// import './App.css'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-     
-    </>
-  )
+    <div>
+      <Footer1 />
+    </div>
+  );
 }
 
-export default App
+export default App;
