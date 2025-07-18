@@ -6,10 +6,11 @@ const Navbar = () => {
     <nav className="w-full border-2 h-auto fixed">
       <ul className="flex justify-evenly bg-red-300">
         <NavLink to={"/home"}>Home</NavLink>
-        <NavLink >About</NavLink>
-        <NavLink >Services</NavLink>
-        <NavLink >Contact us</NavLink>
-        <NavLink >Join us</NavLink>
+        <NavLink>About</NavLink>
+        <NavLink>Services</NavLink>
+        <NavLink>Contact us</NavLink>
+        <NavLink to={"/team"}>Our Team</NavLink>
+        <NavLink>Join us</NavLink>
       </ul>
     </nav>
   );
